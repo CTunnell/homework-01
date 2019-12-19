@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100%;
+    width: 960px;
+    margin: 0 auto 0 auto;
+margin-bottom: -50px;
+}
+.header{
+    height: 75px;
+    padding: 10px 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    
+}
+#name{
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 32;
+    padding: 28px;
+    text-align; center;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    color: #fff;
+
+}
+
+.header a{
+    float: left;
+  color: gray;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.links{
+    float: right;
+    color: gray;
+}
+
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/papyrus-dark.png");
+    background-color: #ffffff;
+
+}
+html, body{
+    height: 100%;
+}
+
+#full{
+    overflow: auto; 
+    background: #ffffff;
+    margin-top: 25px;
+    border-radius: 2px;
+
+}
+
+h1{
+    color: #4aaaa5;
+padding-left: 15px;
+}
+
+h1:after {
+    border-bottom: 2px solid #dddddd;
+    content: '';
+    display: block;
+    width: 95%;
+    padding-top: 10px;
+  }
+
+aside{
+    padding: 15px;
+    float: left;
+}
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+}
+form{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+padding-left: 15px;
+}
+.footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    line-height: 20px;
+    padding-top: 30px;
+}
+.footer, .push{
+    height: 60px;
+}
